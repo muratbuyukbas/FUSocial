@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FUSocial</string>
+    <string name="kullan_c_paneli">Kullanıcı Paneli</string>
+    <string name="g_n_n_men_s">Günün Menüsü</string>
+    <string name="yemek_listesi_y_kleniyor">Yemek listesi yükleniyor . . .</string>
+    <string name="gezilecek_yerler">Gezilecek Yerler</string>
+    <string name="harput">Harput</string>
+    <string name="n_bet_eczaneler">NÖBETÇİ ECZANELER</string>
+    <string name="eczaneler_y_kleniyor">Eczaneler yükleniyor. . .</string>
+    <string name="g_n_n_men_su">GÜNÜN MENÜSÜ</string>
+    <string name="todo">TODO</string>
+    <string name="ilanVer">ilan vermek için asagıdaki bilgileri \n
+muratbbas@gmail.com \n
+mail gönderebilirsiniz \n\n
+ad soyad ve iletisim bilgileriniz \n
+evinizin;\n
+1-bulundugu mahalle \n
+2-kirası \n
+3-oda sayısı \n
+4-devir ücreti \n
+5-fotografları</string>
+
+</resources>

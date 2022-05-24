@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pop_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ilanYayin">
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-3dp"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <TextView
+        android:id="@+id/ilanVerr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/ilanVer"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:fontFamily="@font/fredoka_one"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

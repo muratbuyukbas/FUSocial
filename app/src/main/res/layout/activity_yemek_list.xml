@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/minterface"
+    tools:context=".yemekList">
+
+
+    <TextView
+        android:id="@+id/yemekList"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/righteous"
+        android:gravity="center"
+        android:text="@string/yemek_listesi_y_kleniyor"
+        android:textColor="#F4F4F4"
+        android:textSize="28sp" />
+
+</RelativeLayout>

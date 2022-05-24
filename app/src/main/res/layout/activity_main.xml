@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/ainterface">
+
+
+
+
+
+
+    <ImageView
+    android:id="@+id/uniEvi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="100dp"
+    android:clickable="true"
+    android:contentDescription="@string/app_name"
+    android:onClick="uniEvi"
+    app:srcCompat="@drawable/buton1"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"    />
+
+    <ImageView
+        android:id="@+id/itiraf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uniEvi"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:contentDescription="@string/app_name"
+        android:onClick="itirafEt"
+        app:srcCompat="@drawable/buton2" />
+
+    <ImageView
+        android:id="@+id/devir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itiraf"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:contentDescription="@string/app_name"
+        android:onClick="devirActivity"
+        app:srcCompat="@drawable/buton3" />
+
+
+
+
+
+</RelativeLayout>
